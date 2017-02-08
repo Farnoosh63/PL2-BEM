@@ -29,7 +29,8 @@
     "pattern-lab/drupal-twig-components": "^2.0.0",
     "aleksip/plugin-data-transform": "^1.0.0",
     "pattern-lab/plugin-faker": "^2.0",
-    "evanlovely/plugin-twig-namespaces": "^1.0"
+    "evanlovely/plugin-twig-namespaces": "^1.0",
+    "twig/extensions": "^1.4.0"
   },
   "scripts": {
     "post-install-cmd": [

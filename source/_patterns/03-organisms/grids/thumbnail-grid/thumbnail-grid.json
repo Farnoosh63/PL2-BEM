@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "class": "style1",
+      "image": "/images/images/images/pic02.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style2",
+      "image": "/images/images/images/pic03.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style3",
+      "image": "/images/images/images/pic04.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style4",
+      "image": "/images/images/images/pic05.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style6",
+      "image": "/images/images/images/pic06.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style2",
+      "image": "/images/images/images/pic07.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style3",
+      "image": "/images/images/images/pic08.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style1",
+      "image": "/images/images/images/pic09.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style5",
+      "image": "/images/images/images/pic10.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style6",
+      "image": "/images/images/images/pic11.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style4",
+      "image": "/images/images/images/pic12.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    }
+  ]
+}
