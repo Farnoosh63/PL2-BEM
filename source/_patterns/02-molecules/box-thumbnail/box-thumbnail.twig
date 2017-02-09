@@ -11,14 +11,14 @@
       </section>
   </div> -->
 
-  <article class="{{ class }}">
+  <article class="{{ boxThumbnail.class }}">
 		<span class="image">
-			<img src="{{ img }}" alt="image" />
+			<img src= {% include "@atoms/_img.twig" %} 
 		</span>
-		<a href="{{ link }}">
-			<h2>{{ title }}</h2>
+		<a href="{{ boxThumbnail.link }}">
+			<h2>{{ boxThumbnail.title }}</h2>
 			<div class="content">
-				<p>{{ content }}</p>
+				<p>{{ boxThumbnail.content }}</p>
 			</div>
 		</a>
 	</article>

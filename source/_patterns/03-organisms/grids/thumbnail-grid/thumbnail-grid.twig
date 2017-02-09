@@ -1,18 +1,15 @@
-<div class="thumbnail-grid">
-  <section class="tiles">
+<section class="tiles">
 
 
-{% for item in items|slice(0,3) %}
+  {% for item in items|slice(0,3) %}
     {% include "@molecules/box-thumbnail.twig" with {
-    class: item.class,
-     img: item.image,
-     link: item.link,
-     title: item.title,
-     content: item.content
+      class: item.class,
+      img: item.image,
+      link: item.link,
+      title: item.title,
+      content: item.content
     } %}
 
+  {% endfor %}
 
-{% endfor %}
-
-  </section>
-</div>
+</section>
