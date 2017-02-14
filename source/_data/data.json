@@ -56,7 +56,7 @@
 
     "boxThumbnail": {
       "class": "style1",
-      "img": "../../../../../images/fpo_square.png",
+      "img": "/images/fpo_square.png",
       "img_alt": "what a nice image",
       "link": "www.google.com",
       "title": "Magna",

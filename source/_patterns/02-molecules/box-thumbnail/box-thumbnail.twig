@@ -2,10 +2,16 @@
 
   <article class="{{ class }}">
 		<span class="image box-thumbnail__image-wrapper" >
-      <img src="{{ img }}" alt="" />
+      {% if imageSrc %}
+        <img src= {{ imageSrc }} />
+      {% else %}
+        {% include "@atoms/_img.twig" with {
+        img: boxThumbnail.img
+      }%}
+      {%  endif %}
 		</span>
 		<a href="{{ link }}" class="box-thumbnail__link" >
-			<h2 class="box-thumbnail__title">{{ title }}</h2>
+			<h2 class="box-thumbnail__title">{{ boxThumbnail.title }}</h2>
 			<div class="content">
 				<p>{{ content }}</p>
 			</div>
