@@ -1,24 +1,13 @@
-<!--
-   <div class="box-thumbnail">
-     <section class="tiles">
-       <article class="style1">
 
 
-			 <span class="image">
-			     <img src=" {{ img }} " />
-			  </span>
-           </article>
-      </section>
-  </div> -->
-
-  <article class="{{ boxThumbnail.class }}">
-		<span class="image">
-			<img src= {% include "@atoms/_img.twig" %} 
+  <article class="{{ class }}">
+		<span class="image box-thumbnail__image-wrapper" >
+      <img src="{{ img }}" alt="" />
 		</span>
-		<a href="{{ boxThumbnail.link }}">
-			<h2>{{ boxThumbnail.title }}</h2>
+		<a href="{{ link }}" class="box-thumbnail__link" >
+			<h2 class="box-thumbnail__title">{{ title }}</h2>
 			<div class="content">
-				<p>{{ boxThumbnail.content }}</p>
+				<p>{{ content }}</p>
 			</div>
 		</a>
 	</article>

@@ -57,7 +57,7 @@ module.exports = {
     babel: true,
     // Will bundle all bower JS dependencies (not devDeps)
     // creates a `bower_components.min.js` file in `js.dest`.
-    bundleBower: true,
+    bundleBower: false,
     eslint: {
       enabled: true,
       src: [
