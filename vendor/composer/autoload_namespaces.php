@@ -8,4 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
+    'PatternLab\\PatternEngine\\Mustache' => array($vendorDir . '/pattern-lab/patternengine-mustache/src'),
+    'PatternLab' => array($vendorDir . '/pattern-lab/core/src'),
+    'Mustache' => array($vendorDir . '/mustache/mustache/src'),
+    'Michelf' => array($vendorDir . '/michelf/php-markdown'),
+    'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
+    'Colors' => array($vendorDir . '/kevinlebrun/colors.php/src'),
 );

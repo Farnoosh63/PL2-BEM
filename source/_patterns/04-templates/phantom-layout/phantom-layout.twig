@@ -1,18 +1,40 @@
-<div class="main">
-  <div class="inner">
-    
-  {% include "@templates/phantom-content.twig" %}
-  {% include "@organisms/thumbnail-grid.twig" %}
+<body class>
 
-  </div>
+<!-- wrapper -->
+  <div id="wrapper">
+    <!-- header -->
+    <header id="header">
+      <div class="inner">
 
-</div>
+        {% include "@atoms/logo-with-text.twig" %}
+        {% include "@atoms/nav-bar.twig" %}
 
-<footer id="footer">
-  <div class="inner">
 
-    {% include "@atoms/social-media.twig" %}
+      </div>
+    </header>
 
-  </div>
 
-</footer>
+    <div id="main">
+      <div class="inner">
+
+        {% include "@templates/phantom-content.twig" %}
+
+        {% include "@organisms/thumbnail-grid.twig" %}
+
+
+      </div>
+
+    </div>
+
+    <footer id="footer">
+      <div class="inner">
+
+        {% include "@atoms/contact.twig" %}
+        {% include "@atoms/social-media.twig" %}
+
+      </div>
+
+    </footer>
+
+  </div>  <!--end of wrapper -->
+</body>

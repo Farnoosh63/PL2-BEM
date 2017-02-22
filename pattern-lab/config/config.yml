@@ -65,7 +65,10 @@ plugins:
           - ../source/_patterns/01-atoms/01-typography/text
           - ../source/_patterns/01-atoms/buttons
           - ../source/_patterns/01-atoms/buttons/social-media
+          - ../source/_patterns/01-atoms/forms
           - ../source/_patterns/01-atoms/images
+          - ../source/_patterns/01-atoms/logo
+          - ../source/_patterns/01-atoms/nav-bar
       molecules:
         paths:
           - ../source/_patterns/02-molecules
