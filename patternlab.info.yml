@@ -42,8 +42,8 @@ component-libraries:
   organisms:
     paths:
       - source/_patterns/03-organisms
+      - source/_patterns/03-organisms/grids/box-thumbnail-grid
       - source/_patterns/03-organisms/grids/caption-grid-block
-      - source/_patterns/03-organisms/grids/thumbnail-grid
       - source/_patterns/03-organisms/site/site-footer
       - source/_patterns/03-organisms/site/site-header
   templates:

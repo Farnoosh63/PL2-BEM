@@ -1,19 +1,19 @@
 
 
-  <div class="{{ class }} box-thumbnail__article">
+  <article class="{{ class }} box-thumbnail">
 		<span class="box-thumbnail__image-wrapper" >
       {% if imageSrc %}
-        <img class= "box-thumbnail__image-img" src= {{ imageSrc }} />
+        <img src= "{{ imageSrc }}" class= "box-thumbnail__image-img" alt="" >
       {% else %}
-        <img class= "box-thumbnail__image-img" {% include "@atoms/_img.twig" with {
+        <img class= "box-thumbnail__image-img" alt="" {% include "@atoms/_img.twig" with {
         img: boxThumbnail.img
-      }%} />
+        } %} >
       {%  endif %}
 		</span>
 		<a href="{{ link }}" class="box-thumbnail__link" >
 			<div class="box-thumbnail__title">{{ boxThumbnail.title }}</div>
 			<div class="box-thumbnail__content">
-				<div class="box-thumbnail__content-text">{{ content }}</div>
+				<div class="box-thumbnail__content-text">{{ boxThumbnail.content }}</div>
 			</div>
 		</a>
-	</div>
+	</article>
