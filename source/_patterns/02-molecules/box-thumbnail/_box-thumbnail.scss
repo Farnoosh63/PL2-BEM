@@ -62,7 +62,7 @@
 	overflow: hidden;
   margin: none;
 
-	&::before { //two colon is for rendering the & but one colon is for behavior like hover , etc. Basically everythng id one colon except before and after.
+	&::before { //two colon is for rendering theme & but one colon is for behavior like hover , etc. Basically everythng is one colon except before and after.
 		pointer-events: none;
 		transition: background-color 0.5s ease, opacity 0.5s ease;
 		content: ''; //must for suedo
